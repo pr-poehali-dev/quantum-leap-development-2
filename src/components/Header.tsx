@@ -10,9 +10,9 @@ export const Header = () => {
         </a>
         <nav className="flex max-lg:hidden absolute left-1/2 -translate-x-1/2 items-center justify-center gap-x-10">
           {[
+            { label: "Каталог", href: "#catalog" },
             { label: "О нас", href: "#about" },
-            { label: "Портфолио", href: "#portfolio" },
-            { label: "Инсайты", href: "#insights" },
+            { label: "Доставка", href: "#delivery" },
             { label: "Контакты", href: "#contact" },
           ].map((item) => (
             <a
