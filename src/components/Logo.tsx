@@ -14,7 +14,7 @@ export const Logo = (props: React.SVGProps<SVGSVGElement>) => {
         strokeWidth="2.5"
         strokeLinecap="round"
       />
-      {/* BODY text */}
+      {/* АВТО text */}
       <text
         x="34"
         y="28"
@@ -24,9 +24,9 @@ export const Logo = (props: React.SVGProps<SVGSVGElement>) => {
         fill="white"
         letterSpacing="1"
       >
-        BODY
+        АВТО
       </text>
-      {/* STORE text */}
+      {/* COLOR text */}
       <text
         x="34"
         y="40"
@@ -37,7 +37,7 @@ export const Logo = (props: React.SVGProps<SVGSVGElement>) => {
         opacity="0.5"
         letterSpacing="3"
       >
-        STORE
+        COLOR
       </text>
     </svg>
   );
